@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don cat</title>
+    <link rel="stylesheet" href="hacking.css">
+    <link rel="icon" href="IMG/logo/icon.webp">
+</head>
+<body>
+    <div class="header">
+        CURSO IOT, RASPBERRY & MICROCONTROLADORES
+</div>
+    <main class="container">
+        <section class="course-details">
+            <div class="image-container">
+                <img src="IMG/unidad/iot.webp" alt="Imagen del Curso">
+                 <!-- Recomendaciones debajo de la imagen -->
+        <div class="recomendaciones">
+            <h2>PASOS PARA LA COMPRA</h2>
+            <ul>
+                <li>📌1. Selecciona el medio de pago</li>
+                <li>📌2. Realiza el pago correspondiente y <br>toma una foto como comprobante.</li>
+                <li>📌3. Envía al WhatsApp el comprobante <br>de pago, una foto de la promoción, y tu <br>correo Gmail</li>
+                <br><li>🌐Pagina de facebook oficial🌐</li>
+                <li><a href="https://www.facebook.com/DonCatAcademy/" target="_blank">🖥️Cursos Profesionales DonCat</a></li>
+            </ul>
+        </div>
+            </div>
+           
+            
+            <div class="info-container">
+                <h2>CURSO IOT, RASPBERRY & MICROCONTROLADORES</h2>
+                <div class="scrollable-content">
+                    <main>
+                        <p>🔥CONTENIDO IOT🔥</p>
+<p>🌟Fundamentos IoT con Raspberry Pi. Comprende MQTT desde 0</p>
+<p>📌1. Introducción</p>
+<p>📌2. ¿Cómo funciona Internet</p>
+<p>📌3. El modelo más utilizado de Internet, modelo Cliente Servidor</p>
+<p>📌4. ¿Qué es el Internet of Things</p>
+<p>📌5. Entendiendo a fondo el protocolo MQTT, una pieza clave en las tecnologías IoT</p>
+<p>📌6. Desarrollo IoT con Python y MQTT</p>
+<p>-------------------------------------------</p>
+<p>🌟Curso de IoT Programación de Microcontroladores ESP32</p>
+<p>📌Introducción</p>
+<p>📌Hardware</p>
+<p>📌ESP-IDF</p>
+<p>📌API Core</p>
+<p>📌Peripherals API</p>
+<p>📌Servidor Web</p>
+<p>📌Smart Light</p>
+<p>📌Despedida</p>
+<p>-------------------------------------------</p>
+<p>🌟Curso de Raspberry Pi 4 Model B con Python, IoT y Domótica</p>
+<p>📌01 Instalación y puesta en marcha</p>
+<p>📌02 Programando la Raspberry con Python</p>
+<p>📌03 Librerías y funciones en Python</p>
+<p>📌04 Manejando el Hardware GPIO</p>
+<p>📌05 Manejando el Hardware, Librerías, Bluetooth y Arduino</p>
+<p>📌06 Manejando la cámara de Raspberry</p>
+<p>📌07 IoT, manejando sockets</p>
+<p>📌08 IoT, manejando base de datos</p>
+<p>📌09 IoT, manejando el protocolo MQTT</p>
+<p>📌10 El Cloud AWS</p>
+<p>📌11 IoT, Programando en Node-RED</p>
+<p>📌12 IoT, manejando el Dashboard</p>
+<p>-------------------------------------------</p>
+<p>🌟Master en Arduino ¡IoT! Internet of Things y mucho más!</p>
+<p>📌Bienvenidos</p>
+<p>📌Ahora Master en Arduino 2019 incluye IoT! Avances...</p>
+<p>📌Plataforma Arduino y Presentación de la placa Arduino Uno</p>
+<p>📌Componentes para el curso</p>
+<p>📌Programación en C++ orientada a Arduino</p>
+<p>📌Desarrollando primeros proyectos Arduino. Simples, pero importantes!</p>
+<p>📌IoT Internet of Things</p>
+<p>📌ALAN EL ROBOT IoT</p>
+<p>-------------------------------------------</p>
+<p>🌟Máster en IoT Conéctate al Futuro</p>
+<p>📌INTRODUCCIÓN A INTERNET OF THINGS (IoT)</p>
+<p>📌DISPOSITIVOS, SENSORES Y ACTUADORES IoT</p>
+<p>📌CONECTIVIDAD IOT</p>
+<p>📌PLATAFORMAS IOT</p>
+<p>📌DATA SCIENCE Y BUSINESS INTELLIGENCE</p>
+<p>📌SEGURIDAD EN EL MUNDO CONECTADO Y BLOCKCHAIN</p>
+<p>📌ESTRATEGIA Y MODELOS DE NEGOCIO IoT</p>
+<p>📌CONCLUSIONES</p>
+<p>📌Clase Extra BONUS</p>
+
+                    </main>
+                </div>
+                <div class="price">
+                    <p>🌟El acceso es para siempre🌟La entrega es inmediata🌟El material se actualiza🌟100% Español HD🌟</p>
+                    <h3>
+                        <span>PRECIO AHORA: S/ 7 -</span>
+                        <span class="raya">S/ 89.90</span> - 
+                        <span class="dolar">DOLAR: $3.20 -</span> 
+                        <span class="raya-do">$27</span>
+                    </h3>
+                </div>
+                <button class="pay-btn" id="openModalBtn">YAPE/PLIN</button>
+                <button class="text-btn" id="openTextModalBtn">INTERBANCARIO/PAYPAL</button>
+                <a href="https://link.mercadopago.com.pe/doncat" target="_blank"><button class="mercado-btn">MERCADO PAGO</button></a>
+                <button class="whatsapp-btn" id="whatsappBtn">CONTACTO WHATSAPP</button>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Modal para QR -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h2>Escanea este QR para realizar tu pago</h2>
+            <!-- Contenedor de imágenes -->
+            <div class="qr-container">
+                <img src="IMG/Pagos/yape.jpeg" alt="Código QR">
+                <img src="IMG/Pagos/plin.jpeg" alt="Código QR">
+            </div>
+            <p class="pagsya">🌟Mandar comprobante de pago, foto del megapack pagado y correo Gmail al <a target="_blank" href="https://wa.me/message/QN4U4OXYVOSLB1">WhatsApp</a> 🌟</p>
+        </div>
+    </div>
+
+    <!-- Modal para Texto Adicional -->
+    <div class="modal" id="textModal">
+        <div class="modal-content">
+            <span class="close" id="closeTextModalBtn">&times;</span>
+            <h2>🌟 Metodos de pago 🌟</h2>
+            <p>
+                <ul class="pags">
+                        <li>✅ BBVA - JUNIOR MOTTA</li>
+                        <li>🟣 Cuenta: 0011-0814-0267348354-17</li>
+                        <li>🟣 Interbancario (CCI): 011-814-000267348354-17</li>
+                        <br>
+                        <li>✅ INTERBANK - JUNIOR MOTTA</li>
+                        <li>🟣 Cuenta Simple: 3303333136179</li>
+                        <li>🟣 Cuenta Interbancario (CCI): 00333001333313617989</li>
+                        <br>
+                        <li>✅ BCP - JUNIOR MOTTA</li>
+                        <li>🟣 BCP: 19470905077087</li>
+                        <li>🟣 Interbancaria: 00219417090507708799</li>
+                        <br>
+                        <li>✅ PAYPAL - JUNIOR MOTTA</li>
+                        <li>🟣 <a href="https://www.paypal.me/JuniorPMS" target="_blank">https://www.paypal.me/JuniorPMS</a></li>
+                        <br>
+                        <p class="pagsya">🌟Mandar comprobante de pago, foto del megapack pagado y correo Gmail al <a target="_blank" href="https://wa.me/message/QN4U4OXYVOSLB1">whatsapp🌟</p>
+                    
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Todos los derechos reservados | Don cat</p>
+    </footer>
+
+    <script src="hacking.js"></script>
+</body>
+</html>
